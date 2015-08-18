@@ -1,0 +1,459 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'express', '--save' ]
+2 info using npm@2.11.2
+3 info using node@v0.12.5
+4 verbose config Skipping project config: /Users/davidzn2/.npmrc. (matches userconfig)
+5 verbose install initial load of /Users/davidzn2/package.json
+6 warn package.json davidzn2@0.0.0 No description
+7 warn package.json davidzn2@0.0.0 No repository field.
+8 warn package.json davidzn2@0.0.0 No README data
+9 warn package.json davidzn2@0.0.0 No license field.
+10 verbose installManyTop reading scoped package data from /Users/davidzn2/node_modules/body-parser/package.json
+11 verbose installManyTop reading scoped package data from /Users/davidzn2/node_modules/browserify/package.json
+12 verbose installManyTop reading scoped package data from /Users/davidzn2/node_modules/browserify-shim/package.json
+13 verbose installManyTop reading scoped package data from /Users/davidzn2/node_modules/cloudinary/package.json
+14 verbose installManyTop reading scoped package data from /Users/davidzn2/node_modules/compression/package.json
+15 verbose installManyTop reading scoped package data from /Users/davidzn2/node_modules/di/package.json
+16 verbose installManyTop reading scoped package data from /Users/davidzn2/node_modules/express/package.json
+17 verbose installManyTop reading scoped package data from /Users/davidzn2/node_modules/express-less/package.json
+18 verbose installManyTop reading scoped package data from /Users/davidzn2/node_modules/grunt/package.json
+19 verbose installManyTop reading scoped package data from /Users/davidzn2/node_modules/grunt-contrib-clean/package.json
+20 verbose installManyTop reading scoped package data from /Users/davidzn2/node_modules/grunt-contrib-uglify/package.json
+21 verbose installManyTop reading scoped package data from /Users/davidzn2/node_modules/jade/package.json
+22 verbose installManyTop reading scoped package data from /Users/davidzn2/node_modules/method-override/package.json
+23 verbose installManyTop reading scoped package data from /Users/davidzn2/node_modules/mongoose/package.json
+24 verbose installManyTop reading scoped package data from /Users/davidzn2/node_modules/morgan/package.json
+25 verbose installManyTop reading scoped package data from /Users/davidzn2/node_modules/multer/package.json
+26 verbose installManyTop reading scoped package data from /Users/davidzn2/node_modules/npm/package.json
+27 verbose installManyTop reading scoped package data from /Users/davidzn2/node_modules/transformify/package.json
+28 info package.json cloudinary@1.2.2 No license field.
+29 info package.json express-less@0.0.6 license should be a valid SPDX license expression
+30 info package.json grunt-contrib-uglify@0.6.0 No license field.
+31 info package.json grunt@0.4.5 No license field.
+32 info package.json jade@0.31.2 No license field.
+33 info package.json grunt-contrib-clean@0.5.0 No license field.
+34 info package.json transformify@0.1.2 license should be a valid SPDX license expression
+35 verbose readDependencies loading dependencies from /Users/davidzn2/package.json
+36 silly cache add args [ 'express@^4.13.3', null ]
+37 verbose cache add spec express@^4.13.3
+38 silly cache add parsed spec { raw: 'express@^4.13.3',
+38 silly cache add   scope: null,
+38 silly cache add   name: 'express',
+38 silly cache add   rawSpec: '^4.13.3',
+38 silly cache add   spec: '>=4.13.3 <5.0.0',
+38 silly cache add   type: 'range' }
+39 silly addNamed express@>=4.13.3 <5.0.0
+40 verbose addNamed ">=4.13.3 <5.0.0" is a valid semver range for express
+41 silly addNameRange { name: 'express', range: '>=4.13.3 <5.0.0', hasData: false }
+42 silly mapToRegistry name express
+43 silly mapToRegistry using default registry
+44 silly mapToRegistry registry https://registry.npmjs.org/
+45 silly mapToRegistry uri https://registry.npmjs.org/express
+46 verbose addNameRange registry:https://registry.npmjs.org/express not in flight; fetching
+47 verbose request uri https://registry.npmjs.org/express
+48 verbose request no auth needed
+49 info attempt registry request try #1 at 12:45:20 PM
+50 verbose request id 9cab86e111212221
+51 verbose etag "8XOFAA21BHKEUQWXJMLCMRC0J"
+52 http request GET https://registry.npmjs.org/express
+53 http 304 https://registry.npmjs.org/express
+54 silly get cb [ 304,
+54 silly get   { date: 'Mon, 17 Aug 2015 17:45:21 GMT',
+54 silly get     via: '1.1 varnish',
+54 silly get     'cache-control': 'max-age=60',
+54 silly get     etag: '"8XOFAA21BHKEUQWXJMLCMRC0J"',
+54 silly get     age: '22',
+54 silly get     connection: 'keep-alive',
+54 silly get     'x-served-by': 'cache-dfw1822-DFW',
+54 silly get     'x-cache': 'HIT',
+54 silly get     'x-cache-hits': '78',
+54 silly get     'x-timer': 'S1439833521.283792,VS0,VE0',
+54 silly get     vary: 'Accept' } ]
+55 verbose etag https://registry.npmjs.org/express from cache
+56 verbose get saving express to /Users/davidzn2/.npm/registry.npmjs.org/express/.cache.json
+57 silly addNameRange number 2 { name: 'express', range: '>=4.13.3 <5.0.0', hasData: true }
+58 silly addNameRange versions [ 'express',
+58 silly addNameRange   [ '0.14.0',
+58 silly addNameRange     '0.14.1',
+58 silly addNameRange     '1.0.0',
+58 silly addNameRange     '1.0.1',
+58 silly addNameRange     '1.0.2',
+58 silly addNameRange     '1.0.3',
+58 silly addNameRange     '1.0.4',
+58 silly addNameRange     '1.0.5',
+58 silly addNameRange     '1.0.6',
+58 silly addNameRange     '1.0.7',
+58 silly addNameRange     '1.0.8',
+58 silly addNameRange     '2.0.0',
+58 silly addNameRange     '2.1.0',
+58 silly addNameRange     '2.1.1',
+58 silly addNameRange     '2.2.0',
+58 silly addNameRange     '2.2.1',
+58 silly addNameRange     '2.2.2',
+58 silly addNameRange     '2.3.0',
+58 silly addNameRange     '2.3.1',
+58 silly addNameRange     '2.3.2',
+58 silly addNameRange     '2.3.3',
+58 silly addNameRange     '2.3.4',
+58 silly addNameRange     '2.3.5',
+58 silly addNameRange     '2.3.6',
+58 silly addNameRange     '2.3.7',
+58 silly addNameRange     '2.3.8',
+58 silly addNameRange     '2.3.9',
+58 silly addNameRange     '2.3.10',
+58 silly addNameRange     '2.3.11',
+58 silly addNameRange     '2.3.12',
+58 silly addNameRange     '2.4.0',
+58 silly addNameRange     '2.4.1',
+58 silly addNameRange     '2.4.2',
+58 silly addNameRange     '2.4.3',
+58 silly addNameRange     '2.4.4',
+58 silly addNameRange     '2.4.5',
+58 silly addNameRange     '2.4.6',
+58 silly addNameRange     '2.4.7',
+58 silly addNameRange     '2.5.0',
+58 silly addNameRange     '2.5.1',
+58 silly addNameRange     '2.5.2',
+58 silly addNameRange     '2.5.3',
+58 silly addNameRange     '2.5.4',
+58 silly addNameRange     '2.5.5',
+58 silly addNameRange     '2.5.6',
+58 silly addNameRange     '2.5.7',
+58 silly addNameRange     '2.5.8',
+58 silly addNameRange     '2.5.9',
+58 silly addNameRange     '2.5.10',
+58 silly addNameRange     '2.5.11',
+58 silly addNameRange     '3.0.0',
+58 silly addNameRange     '3.0.1',
+58 silly addNameRange     '3.0.2',
+58 silly addNameRange     '3.0.3',
+58 silly addNameRange     '3.0.4',
+58 silly addNameRange     '3.0.5',
+58 silly addNameRange     '3.0.6',
+58 silly addNameRange     '3.1.0',
+58 silly addNameRange     '3.1.1',
+58 silly addNameRange     '3.1.2',
+58 silly addNameRange     '3.2.0',
+58 silly addNameRange     '3.2.1',
+58 silly addNameRange     '3.2.2',
+58 silly addNameRange     '3.2.3',
+58 silly addNameRange     '3.2.4',
+58 silly addNameRange     '3.2.5',
+58 silly addNameRange     '3.2.6',
+58 silly addNameRange     '3.3.0',
+58 silly addNameRange     '3.3.1',
+58 silly addNameRange     '3.3.2',
+58 silly addNameRange     '3.3.3',
+58 silly addNameRange     '3.3.4',
+58 silly addNameRange     '3.3.5',
+58 silly addNameRange     '3.3.6',
+58 silly addNameRange     '1.0.0-beta',
+58 silly addNameRange     '1.0.0-beta2',
+58 silly addNameRange     '1.0.0-rc',
+58 silly addNameRange     '1.0.0-rc2',
+58 silly addNameRange     '1.0.0-rc3',
+58 silly addNameRange     '1.0.0-rc4',
+58 silly addNameRange     '2.0.0-beta',
+58 silly addNameRange     '2.0.0-beta2',
+58 silly addNameRange     '2.0.0-beta3',
+58 silly addNameRange     '2.0.0-rc',
+58 silly addNameRange     '2.0.0-rc2',
+58 silly addNameRange     '2.0.0-rc3',
+58 silly addNameRange     '3.0.0-alpha1',
+58 silly addNameRange     '3.0.0-alpha2',
+58 silly addNameRange     '3.0.0-alpha3',
+58 silly addNameRange     '3.0.0-alpha4',
+58 silly addNameRange     '3.0.0-alpha5',
+58 silly addNameRange     '3.0.0-beta1',
+58 silly addNameRange     '3.0.0-beta2',
+58 silly addNameRange     '3.0.0-beta3',
+58 silly addNameRange     '3.0.0-beta4',
+58 silly addNameRange     '3.0.0-beta6',
+58 silly addNameRange     '3.0.0-beta7',
+58 silly addNameRange     '3.0.0-rc1',
+58 silly addNameRange     '3.0.0-rc2',
+58 silly addNameRange     '3.0.0-rc3',
+58 silly addNameRange     '3.0.0-rc4',
+58 silly addNameRange     '3.0.0-rc5',
+58 silly addNameRange     '3.3.7',
+58 silly addNameRange     '3.3.8',
+58 silly addNameRange     '3.4.0',
+58 silly addNameRange     '3.4.1',
+58 silly addNameRange     '3.4.2',
+58 silly addNameRange     '3.4.3',
+58 silly addNameRange     '3.4.4',
+58 silly addNameRange     '3.4.5',
+58 silly addNameRange     '3.4.6',
+58 silly addNameRange     '3.4.7',
+58 silly addNameRange     '3.4.8',
+58 silly addNameRange     '4.0.0-rc1',
+58 silly addNameRange     '4.0.0-rc2',
+58 silly addNameRange     '3.5.0',
+58 silly addNameRange     '4.0.0-rc3',
+58 silly addNameRange     '4.0.0-rc4',
+58 silly addNameRange     '3.5.1',
+58 silly addNameRange     '4.0.0',
+58 silly addNameRange     '3.5.2',
+58 silly addNameRange     '4.1.0',
+58 silly addNameRange     '4.1.1',
+58 silly addNameRange     '3.5.3',
+58 silly addNameRange     '4.1.2',
+58 silly addNameRange     '3.6.0',
+58 silly addNameRange     '4.2.0',
+58 silly addNameRange     '3.7.0',
+58 silly addNameRange     '3.8.0',
+58 silly addNameRange     '4.3.0',
+58 silly addNameRange     '4.3.1',
+58 silly addNameRange     '3.8.1',
+58 silly addNameRange     '4.3.2',
+58 silly addNameRange     '3.9.0',
+58 silly addNameRange     '4.4.0',
+58 silly addNameRange     '4.4.1',
+58 silly addNameRange     '3.10.0',
+58 silly addNameRange     '3.10.1',
+58 silly addNameRange     '3.10.2',
+58 silly addNameRange     '3.10.3',
+58 silly addNameRange     '3.10.4',
+58 silly addNameRange     '4.4.2',
+58 silly addNameRange     '3.10.5',
+58 silly addNameRange     '4.4.3',
+58 silly addNameRange     '3.11.0',
+58 silly addNameRange     '4.4.4',
+58 silly addNameRange     '3.12.0',
+58 silly addNameRange     '3.12.1',
+58 silly addNameRange     '4.4.5',
+58 silly addNameRange     '3.13.0',
+58 silly addNameRange     '4.5.0',
+58 silly addNameRange     '4.5.1',
+58 silly addNameRange     '3.14.0',
+58 silly addNameRange     '4.6.0',
+58 silly addNameRange     '4.6.1',
+58 silly addNameRange     '3.15.0',
+58 silly addNameRange     '4.7.0',
+58 silly addNameRange     '3.15.1',
+58 silly addNameRange     '4.7.1',
+58 silly addNameRange     '3.15.2',
+58 silly addNameRange     '4.7.2',
+58 silly addNameRange     '4.7.3',
+58 silly addNameRange     '3.15.3',
+58 silly addNameRange     '4.7.4',
+58 silly addNameRange     '3.16.0',
+58 silly addNameRange     '4.8.0',
+58 silly addNameRange     '3.16.1',
+58 silly addNameRange     '4.8.1',
+58 silly addNameRange     '3.16.2',
+58 silly addNameRange     '4.8.2',
+58 silly addNameRange     '3.16.3',
+58 silly addNameRange     '3.16.4',
+58 silly addNameRange     '4.8.3',
+58 silly addNameRange     '3.16.5',
+58 silly addNameRange     '3.16.6',
+58 silly addNameRange     '4.8.4',
+58 silly addNameRange     '3.16.7',
+58 silly addNameRange     '4.8.5',
+58 silly addNameRange     '3.16.8',
+58 silly addNameRange     '4.8.6',
+58 silly addNameRange     '3.16.9',
+58 silly addNameRange     '4.8.7',
+58 silly addNameRange     '3.16.10',
+58 silly addNameRange     '4.8.8',
+58 silly addNameRange     '3.17.0',
+58 silly addNameRange     '3.17.1',
+58 silly addNameRange     '4.9.0',
+58 silly addNameRange     '3.17.2',
+58 silly addNameRange     '4.9.1',
+58 silly addNameRange     '4.9.2',
+58 silly addNameRange     '3.17.3',
+58 silly addNameRange     '4.9.3',
+58 silly addNameRange     '3.17.4',
+58 silly addNameRange     '4.9.4',
+58 silly addNameRange     '3.17.5',
+58 silly addNameRange     '4.9.5',
+58 silly addNameRange     '3.17.6',
+58 silly addNameRange     '3.17.7',
+58 silly addNameRange     '4.9.6',
+58 silly addNameRange     '4.9.7',
+58 silly addNameRange     '3.17.8',
+58 silly addNameRange     '4.9.8',
+58 silly addNameRange     '3.18.0',
+58 silly addNameRange     '3.18.1',
+58 silly addNameRange     '4.10.0',
+58 silly addNameRange     '3.18.2',
+58 silly addNameRange     '4.10.1',
+58 silly addNameRange     '5.0.0-alpha.1',
+58 silly addNameRange     '3.18.3',
+58 silly addNameRange     '4.10.2',
+58 silly addNameRange     '3.18.4',
+58 silly addNameRange     '4.10.3',
+58 silly addNameRange     '4.10.4',
+58 silly addNameRange     '4.10.5',
+58 silly addNameRange     '3.18.5',
+58 silly addNameRange     '3.18.6',
+58 silly addNameRange     '4.10.6',
+58 silly addNameRange     '4.10.7',
+58 silly addNameRange     '3.19.0',
+58 silly addNameRange     '4.10.8',
+58 silly addNameRange     '4.11.0',
+58 silly addNameRange     '3.19.1',
+58 silly addNameRange     '4.11.1',
+58 silly addNameRange     '3.19.2',
+58 silly addNameRange     '4.11.2',
+58 silly addNameRange     '3.20.0',
+58 silly addNameRange     '4.12.0',
+58 silly addNameRange     '3.20.1',
+58 silly addNameRange     '4.12.1',
+58 silly addNameRange     '4.12.2',
+58 silly addNameRange     '3.20.2',
+58 silly addNameRange     '4.12.3',
+58 silly addNameRange     '3.20.3',
+58 silly addNameRange     '4.12.4',
+58 silly addNameRange     '3.21.0',
+58 silly addNameRange     '4.13.0',
+58 silly addNameRange     '3.21.1',
+58 silly addNameRange     '4.13.1',
+58 silly addNameRange     '5.0.0-alpha.2',
+58 silly addNameRange     '3.21.2',
+58 silly addNameRange     '4.13.2',
+58 silly addNameRange     '4.13.3' ] ]
+59 silly addNamed express@4.13.3
+60 verbose addNamed "4.13.3" is a plain semver version for express
+61 silly cache afterAdd express@4.13.3
+62 verbose afterAdd /Users/davidzn2/.npm/express/4.13.3/package/package.json not in flight; writing
+63 verbose afterAdd /Users/davidzn2/.npm/express/4.13.3/package/package.json written
+64 silly install resolved [ { name: 'express',
+64 silly install resolved     description: 'Fast, unopinionated, minimalist web framework',
+64 silly install resolved     version: '4.13.3',
+64 silly install resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+64 silly install resolved     contributors:
+64 silly install resolved      [ [Object],
+64 silly install resolved        [Object],
+64 silly install resolved        [Object],
+64 silly install resolved        [Object],
+64 silly install resolved        [Object],
+64 silly install resolved        [Object],
+64 silly install resolved        [Object] ],
+64 silly install resolved     license: 'MIT',
+64 silly install resolved     repository:
+64 silly install resolved      { type: 'git',
+64 silly install resolved        url: 'git+https://github.com/strongloop/express.git' },
+64 silly install resolved     homepage: 'http://expressjs.com/',
+64 silly install resolved     keywords:
+64 silly install resolved      [ 'express',
+64 silly install resolved        'framework',
+64 silly install resolved        'sinatra',
+64 silly install resolved        'web',
+64 silly install resolved        'rest',
+64 silly install resolved        'restful',
+64 silly install resolved        'router',
+64 silly install resolved        'app',
+64 silly install resolved        'api' ],
+64 silly install resolved     dependencies:
+64 silly install resolved      { accepts: '~1.2.12',
+64 silly install resolved        'array-flatten': '1.1.1',
+64 silly install resolved        'content-disposition': '0.5.0',
+64 silly install resolved        'content-type': '~1.0.1',
+64 silly install resolved        cookie: '0.1.3',
+64 silly install resolved        'cookie-signature': '1.0.6',
+64 silly install resolved        debug: '~2.2.0',
+64 silly install resolved        depd: '~1.0.1',
+64 silly install resolved        'escape-html': '1.0.2',
+64 silly install resolved        etag: '~1.7.0',
+64 silly install resolved        finalhandler: '0.4.0',
+64 silly install resolved        fresh: '0.3.0',
+64 silly install resolved        'merge-descriptors': '1.0.0',
+64 silly install resolved        methods: '~1.1.1',
+64 silly install resolved        'on-finished': '~2.3.0',
+64 silly install resolved        parseurl: '~1.3.0',
+64 silly install resolved        'path-to-regexp': '0.1.7',
+64 silly install resolved        'proxy-addr': '~1.0.8',
+64 silly install resolved        qs: '4.0.0',
+64 silly install resolved        'range-parser': '~1.0.2',
+64 silly install resolved        send: '0.13.0',
+64 silly install resolved        'serve-static': '~1.10.0',
+64 silly install resolved        'type-is': '~1.6.6',
+64 silly install resolved        'utils-merge': '1.0.0',
+64 silly install resolved        vary: '~1.0.1' },
+64 silly install resolved     devDependencies:
+64 silly install resolved      { after: '0.8.1',
+64 silly install resolved        ejs: '2.3.3',
+64 silly install resolved        istanbul: '0.3.17',
+64 silly install resolved        marked: '0.3.5',
+64 silly install resolved        mocha: '2.2.5',
+64 silly install resolved        should: '7.0.2',
+64 silly install resolved        supertest: '1.0.1',
+64 silly install resolved        'body-parser': '~1.13.3',
+64 silly install resolved        'connect-redis': '~2.4.1',
+64 silly install resolved        'cookie-parser': '~1.3.5',
+64 silly install resolved        'cookie-session': '~1.2.0',
+64 silly install resolved        'express-session': '~1.11.3',
+64 silly install resolved        jade: '~1.11.0',
+64 silly install resolved        'method-override': '~2.3.5',
+64 silly install resolved        morgan: '~1.6.1',
+64 silly install resolved        multiparty: '~4.1.2',
+64 silly install resolved        vhost: '~3.0.1' },
+64 silly install resolved     engines: { node: '>= 0.10.0' },
+64 silly install resolved     files: [ 'LICENSE', 'History.md', 'Readme.md', 'index.js', 'lib/' ],
+64 silly install resolved     scripts:
+64 silly install resolved      { test: 'mocha --require test/support/env --reporter spec --bail --check-leaks test/ test/acceptance/',
+64 silly install resolved        'test-ci': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --require test/support/env --reporter spec --check-leaks test/ test/acceptance/',
+64 silly install resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --require test/support/env --reporter dot --check-leaks test/ test/acceptance/',
+64 silly install resolved        'test-tap': 'mocha --require test/support/env --reporter tap --check-leaks test/ test/acceptance/' },
+64 silly install resolved     gitHead: 'ef7ad681b245fba023843ce94f6bcb8e275bbb8e',
+64 silly install resolved     bugs: { url: 'https://github.com/strongloop/express/issues' },
+64 silly install resolved     _id: 'express@4.13.3',
+64 silly install resolved     _shasum: 'ddb2f1fb4502bf33598d2b032b037960ca6c80a3',
+64 silly install resolved     _from: 'express@>=4.13.3 <5.0.0',
+64 silly install resolved     _npmVersion: '1.4.28',
+64 silly install resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+64 silly install resolved     maintainers:
+64 silly install resolved      [ [Object],
+64 silly install resolved        [Object],
+64 silly install resolved        [Object],
+64 silly install resolved        [Object],
+64 silly install resolved        [Object],
+64 silly install resolved        [Object],
+64 silly install resolved        [Object] ],
+64 silly install resolved     dist:
+64 silly install resolved      { shasum: 'ddb2f1fb4502bf33598d2b032b037960ca6c80a3',
+64 silly install resolved        tarball: 'http://registry.npmjs.org/express/-/express-4.13.3.tgz' },
+64 silly install resolved     directories: {},
+64 silly install resolved     _resolved: 'https://registry.npmjs.org/express/-/express-4.13.3.tgz',
+64 silly install resolved     readme: 'ERROR: No README data found!' } ]
+65 info install express@4.13.3 into /Users/davidzn2
+66 info installOne express@4.13.3
+67 verbose installOne of express to /Users/davidzn2 not in flight; installing
+68 verbose lock using /Users/davidzn2/.npm/_locks/express-2ae4a69ed9d264d1.lock for /Users/davidzn2/node_modules/express
+69 silly install write writing express 4.13.3 to /Users/davidzn2/node_modules/express
+70 verbose unbuild node_modules/express
+71 silly gentlyRm /Users/davidzn2/node_modules/express is being purged from base /Users/davidzn2
+72 verbose gentlyRm don't care about contents; nuking /Users/davidzn2/node_modules/express
+73 silly vacuum-fs purging /Users/davidzn2/node_modules/express
+74 verbose unlock done using /Users/davidzn2/.npm/_locks/express-2ae4a69ed9d264d1.lock for /Users/davidzn2/node_modules/express
+75 verbose stack Error: EACCES, unlink '/Users/davidzn2/node_modules/express/node_modules/send/node_modules/.bin/mime'
+75 verbose stack     at Error (native)
+76 verbose cwd /Users/davidzn2/Documents/node
+77 error Darwin 14.4.0
+78 error argv "node" "/usr/local/bin/npm" "install" "express" "--save"
+79 error node v0.12.5
+80 error npm  v2.11.2
+81 error path /Users/davidzn2/node_modules/express/node_modules/send/node_modules/.bin/mime
+82 error code EACCES
+83 error errno -13
+84 error Error: EACCES, unlink '/Users/davidzn2/node_modules/express/node_modules/send/node_modules/.bin/mime'
+84 error     at Error (native)
+84 error  { [Error: EACCES, unlink '/Users/davidzn2/node_modules/express/node_modules/send/node_modules/.bin/mime']
+84 error   errno: -13,
+84 error   code: 'EACCES',
+84 error   path: '/Users/davidzn2/node_modules/express/node_modules/send/node_modules/.bin/mime' }
+85 error Please try running this command again as root/Administrator.
+86 verbose exit [ -13, true ]
+87 verbose unbuild node_modules/express
+88 silly gentlyRm /Users/davidzn2/node_modules/express is being purged from base /Users/davidzn2
+89 verbose gentlyRm don't care about contents; nuking /Users/davidzn2/node_modules/express
+90 silly vacuum-fs purging /Users/davidzn2/node_modules/express
+91 error error rolling back Error: EACCES, unlink '/Users/davidzn2/node_modules/express/node_modules/send/node_modules/.bin/mime'
+91 error error rolling back     at Error (native)
+91 error error rolling back  { [Error: EACCES, unlink '/Users/davidzn2/node_modules/express/node_modules/send/node_modules/.bin/mime']
+91 error error rolling back   errno: -13,
+91 error error rolling back   code: 'EACCES',
+91 error error rolling back   path: '/Users/davidzn2/node_modules/express/node_modules/send/node_modules/.bin/mime' }
